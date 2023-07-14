@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
 import locale
-import logging
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)
+#import logging
+#log = logging.getLogger('werkzeug')
+#log.setLevel(logging.ERROR)
 
 
 app = Flask(__name__)
@@ -42,4 +42,5 @@ def checkout():
     return render_template('checkout.html', cart=cart, total=total)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
+    #jika ingin menjalan kan debug maka ganti True
