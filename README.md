@@ -7,6 +7,7 @@
 
 ## Instalasi for Debian/ubuntu and windows
 ## pastikan anda menginstall 
+
 - pip install flask
   
 - git clone https://github.com/wdnchill/Kasir.git
